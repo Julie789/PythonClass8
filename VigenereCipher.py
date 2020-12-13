@@ -23,9 +23,7 @@ def encode(message, keyword):
     for letter in message:
         key = keys[letterCount % len(keys)]
 
-        #use the encode/decode methods from your Caesar Cipher.
-        #The key will change for each letter so you'll be encoding
-        #a one-letter phrase using the Caesar Cipher and adding the results together.
+        #change each letter
 
 
     return secret
